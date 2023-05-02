@@ -1,0 +1,10 @@
+{
+  "restart": {
+    "code": "sudo shutdown -r +1",
+    "description": "Schedule restart in 1 minute"
+  },
+  "cancel_restart": {
+    "code": "sudo shutdown -c",
+    "description": "Cancel a scheduled restart"
+  }
+}
